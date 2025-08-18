@@ -1,0 +1,7 @@
+print("CONCATENATION")
+food_name = input("Name of food: ")
+plant = input("Name of plant: ")
+method = input("Cooking Method?: ")
+burned_food = input("Another name for burned food?: ")
+item = input("Household item: ")
+print(food_name, "with",burned_food, plant, "on a bed", item )
