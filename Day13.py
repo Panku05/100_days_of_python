@@ -6,18 +6,24 @@ print()
 
 percentageScore = round(float(yourScore / maxScore)*100, 2)
 finalNumScore = round(percentageScore, 2)
-print("you got", percentageScore, "%")
 if percentageScore >= 90 and percentageScore <= 100:
     print("A+")
+    print("you got", percentageScore, "%")
 elif percentageScore >= 80 and percentageScore <= 89:
     print("A")
+    print("you got", percentageScore, "%")
 elif percentageScore >= 70 and percentageScore <= 79:
     print("B")
+    print("you got", percentageScore, "%")
 elif percentageScore >= 60 and percentageScore <= 69:
     print("C")
+    print("you got", percentageScore, "%")
 elif percentageScore >= 50 and percentageScore <= 59:
     print("D")
+    print("you got", percentageScore, "%")
 elif percentageScore < 49:
     print("F")
+    print("you got", percentageScore, "%")
 else:
-    print("you did not write the test")
+    print("invalid")
+
