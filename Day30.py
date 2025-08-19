@@ -32,17 +32,17 @@
 
 # print(response)
 
-# for i in range(1, 31):
-#     print(f"Day {i} of 30")
+for i in range(1, 31):
+    print(f"Day {i: >8} of 30")
     
     
 # for i in range(1, 31):
 #     print(f"Day {i: ^5} of 30")
     
     
-for i in range(1, 31):
-    thought = input(f"Day {i}:\n")
-    print()
-    text = f"you thought Day {i} was"
-    print(f"{text: ^25}")
-    print(f"{thought: ^25}")
+# for i in range(1, 31):
+#     thought = input(f"Day {i}:\n")
+#     print()
+#     text = f"you thought Day {i} was"
+#     print(f"{text: ^25}")
+#     print(f"{thought: ^25}")

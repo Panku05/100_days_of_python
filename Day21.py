@@ -13,4 +13,4 @@ for i in range(1, 10):
 if counter == 10:
     print("wow brilliant! Perfect Score")
 else:
-    print("\033[0m" "you got", counter, "\033[32m" "out of 10 correct")
+    print("you got", counter, "out of 10 correct")
